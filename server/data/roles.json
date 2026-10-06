@@ -57,5 +57,95 @@
       { "name": "Docker", "aliases": [], "level": "nice",
         "resources": [{ "title": "Docker Get Started", "url": "https://docs.docker.com/get-started/", "type": "course" }] }
     ]
+  },
+  {
+    "name": "Full Stack Developer",
+    "skills": [
+      { "name": "HTML", "aliases": ["html5"], "level": "core",
+        "resources": [{ "title": "W3Schools HTML Tutorial", "url": "https://www.w3schools.com/html/", "type": "article" }] },
+      { "name": "CSS", "aliases": ["css3"], "level": "core",
+        "resources": [{ "title": "W3Schools CSS Tutorial", "url": "https://www.w3schools.com/css/", "type": "article" }] },
+      { "name": "JavaScript", "aliases": ["ecmascript", "es6"], "level": "core",
+        "resources": [{ "title": "W3Schools JavaScript Tutorial", "url": "https://www.w3schools.com/js/", "type": "article" }] },
+      { "name": "React", "aliases": ["reactjs", "react.js"], "level": "core",
+        "resources": [{ "title": "W3Schools React Tutorial", "url": "https://www.w3schools.com/react/", "type": "article" }] },
+      { "name": "Node.js", "aliases": ["nodejs", "node"], "level": "core",
+        "resources": [{ "title": "W3Schools Node.js Tutorial", "url": "https://www.w3schools.com/nodejs/", "type": "article" }] },
+      { "name": "Express", "aliases": ["express.js", "expressjs"], "level": "core",
+        "resources": [{ "title": "Express Official Guide", "url": "https://expressjs.com/en/starter/installing.html", "type": "article" }] },
+      { "name": "MongoDB", "aliases": ["mongo"], "level": "core",
+        "resources": [{ "title": "W3Schools MongoDB Tutorial", "url": "https://www.w3schools.com/mongodb/", "type": "article" }] },
+      { "name": "REST API", "aliases": ["restful", "rest apis", "restful api"], "level": "core",
+        "resources": [{ "title": "REST API Tutorial", "url": "https://restfulapi.net/", "type": "article" }] },
+      { "name": "Git", "aliases": ["github"], "level": "core",
+        "resources": [{ "title": "W3Schools Git Tutorial", "url": "https://www.w3schools.com/git/", "type": "article" }] },
+      { "name": "TypeScript", "aliases": [], "level": "nice",
+        "resources": [{ "title": "W3Schools TypeScript Tutorial", "url": "https://www.w3schools.com/typescript/", "type": "article" }] }
+    ]
+  },
+  {
+    "name": "Python Developer",
+    "skills": [
+      { "name": "Python", "aliases": ["py"], "level": "core",
+        "resources": [{ "title": "W3Schools Python Tutorial", "url": "https://www.w3schools.com/python/", "type": "article" }] },
+      { "name": "OOP", "aliases": ["object oriented programming", "object-oriented"], "level": "core",
+        "resources": [{ "title": "W3Schools Python Classes and Objects", "url": "https://www.w3schools.com/python/python_classes.asp", "type": "article" }] },
+      { "name": "Flask", "aliases": [], "level": "core",
+        "resources": [{ "title": "Flask Official Quickstart", "url": "https://flask.palletsprojects.com/en/stable/quickstart/", "type": "article" }] },
+      { "name": "SQL", "aliases": ["mysql", "postgresql"], "level": "core",
+        "resources": [{ "title": "W3Schools SQL Tutorial", "url": "https://www.w3schools.com/sql/", "type": "article" }] },
+      { "name": "REST API", "aliases": ["restful", "rest apis", "restful api"], "level": "core",
+        "resources": [{ "title": "REST API Tutorial", "url": "https://restfulapi.net/", "type": "article" }] },
+      { "name": "Git", "aliases": ["github"], "level": "core",
+        "resources": [{ "title": "W3Schools Git Tutorial", "url": "https://www.w3schools.com/git/", "type": "article" }] },
+      { "name": "Testing", "aliases": ["pytest", "unit testing"], "level": "nice",
+        "resources": [{ "title": "pytest Getting Started", "url": "https://docs.pytest.org/en/stable/getting-started.html", "type": "article" }] },
+      { "name": "Docker", "aliases": [], "level": "nice",
+        "resources": [{ "title": "Docker Get Started", "url": "https://docs.docker.com/get-started/", "type": "course" }]}
+    ]
+  },
+  {
+    "name": "Java Developer",
+    "skills": [
+      { "name": "Java", "aliases": ["core java", "java se"], "level": "core",
+        "resources": [{ "title": "W3Schools Java Tutorial", "url": "https://www.w3schools.com/java/", "type": "article" }] },
+      { "name": "OOP", "aliases": ["object oriented programming", "object-oriented"], "level": "core",
+        "resources": [{ "title": "W3Schools Java OOP", "url": "https://www.w3schools.com/java/java_oop.asp", "type": "article" }] },
+      { "name": "Data Structures", "aliases": ["dsa", "data structures and algorithms"], "level": "core",
+        "resources": [{ "title": "W3Schools Java Data Structures", "url": "https://www.w3schools.com/java/java_data_structures.asp", "type": "article" }] },
+      { "name": "SQL", "aliases": ["mysql", "postgresql"], "level": "core",
+        "resources": [{ "title": "W3Schools SQL Tutorial", "url": "https://www.w3schools.com/sql/", "type": "article" }] },
+      { "name": "Spring Boot", "aliases": ["spring", "springboot"], "level": "core",
+        "resources": [{ "title": "Spring Boot Guide", "url": "https://spring.io/guides/gs/spring-boot", "type": "article" }] },
+      { "name": "REST API", "aliases": ["restful", "rest apis", "restful api"], "level": "core",
+        "resources": [{ "title": "REST API Tutorial", "url": "https://restfulapi.net/", "type": "article" }] },
+      { "name": "Git", "aliases": ["github"], "level": "core",
+        "resources": [{ "title": "W3Schools Git Tutorial", "url": "https://www.w3schools.com/git/", "type": "article" }] },
+      { "name": "Maven", "aliases": [], "level": "nice",
+        "resources": [{ "title": "Maven in 5 Minutes", "url": "https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html", "type": "article" }] }
+    ]
+  },
+  {
+    "name": "Machine Learning Engineer",
+    "skills": [
+      { "name": "Python", "aliases": ["py"], "level": "core",
+        "resources": [{ "title": "W3Schools Python Tutorial", "url": "https://www.w3schools.com/python/", "type": "article" }] },
+      { "name": "NumPy", "aliases": [], "level": "core",
+        "resources": [{ "title": "W3Schools NumPy Tutorial", "url": "https://www.w3schools.com/python/numpy/default.asp", "type": "article" }] },
+      { "name": "Pandas", "aliases": [], "level": "core",
+        "resources": [{ "title": "W3Schools Pandas Tutorial", "url": "https://www.w3schools.com/python/pandas/default.asp", "type": "article" }] },
+      { "name": "Statistics", "aliases": ["stats"], "level": "core",
+        "resources": [{ "title": "Khan Academy: Statistics and Probability", "url": "https://www.khanacademy.org/math/statistics-probability", "type": "course" }] },
+      { "name": "Machine Learning", "aliases": ["ml"], "level": "core",
+        "resources": [{ "title": "W3Schools Machine Learning", "url": "https://www.w3schools.com/python/python_ml_getting_started.asp", "type": "article" }] },
+      { "name": "Scikit-learn", "aliases": ["sklearn", "scikit learn"], "level": "core",
+        "resources": [{ "title": "Scikit-learn Getting Started", "url": "https://scikit-learn.org/stable/getting_started.html", "type": "article" }] },
+      { "name": "SQL", "aliases": ["mysql", "postgresql"], "level": "core",
+        "resources": [{ "title": "W3Schools SQL Tutorial", "url": "https://www.w3schools.com/sql/", "type": "article" }] },
+      { "name": "Git", "aliases": ["github"], "level": "core",
+        "resources": [{ "title": "W3Schools Git Tutorial", "url": "https://www.w3schools.com/git/", "type": "article" }] },
+      { "name": "Deep Learning", "aliases": ["neural networks"], "level": "nice",
+        "resources": [{ "title": "Kaggle Learn: Intro to Deep Learning", "url": "https://www.kaggle.com/learn/intro-to-deep-learning", "type": "course" }] }
+    ]
   }
 ]

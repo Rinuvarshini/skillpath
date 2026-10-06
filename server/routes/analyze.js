@@ -13,7 +13,9 @@ const upload = multer({
 
 router.post('/', upload.single('resume'), async (req, res) => {
   try {
-    const { role } = req.body;
+        const { role, language } = req.body;
+    const allowed = ['English', 'Tamil', 'Hindi'];
+    const lang = allowed.includes(language) ? language : 'English';
     const selectedRole = roles.find(
       (r) => r.name.toLowerCase() === (role || '').toLowerCase()
     );
@@ -31,10 +33,11 @@ router.post('/', upload.single('resume'), async (req, res) => {
 
     const result = matchSkills(skills, selectedRole);
 
-    const weeks = await generateRoadmap(
+        const weeks = await generateRoadmap(
       selectedRole.name,
       result.haveSkills,
-      result.missingSkills
+      result.missingSkills,
+      lang
     );
 
     // attach resource links from OUR dataset and mark each week as not done

@@ -30,7 +30,7 @@ async function callModel(model, prompt) {
   return weeks;
 }
 
-async function generateRoadmap(roleName, haveSkills, missingSkills) {
+async function generateRoadmap(roleName, haveSkills, missingSkills, language = 'English') {
   if (missingSkills.length === 0) return [];
 
   const prompt = `You are a career mentor. A student wants to become a ${roleName}.
@@ -41,6 +41,7 @@ Create a week-by-week learning plan. Rules:
 - Use ONLY the skills listed as "still need to learn", with their exact names.
 - Put easier or foundational skills first. One or two skills per week.
 - Do NOT include any links or course names.
+- Write "topic", "explanation" and "project" in ${language}. Keep every item inside "skills" in English, exactly as given.
 - Reply with ONLY a JSON array, no other text, in this shape:
 [{"week":1,"topic":"short title","skills":["exact skill name"],"explanation":"1-2 sentences on why this matters","project":"one small hands-on project"}]`;
 

@@ -14,7 +14,7 @@ export default function App() {
   const [roadmap, setRoadmap] = useState([]);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
-
+  const [language, setLanguage] = useState('English');
   useEffect(() => {
     fetch(`${BASE}/roles`)
       .then((r) => r.json())
@@ -35,6 +35,7 @@ export default function App() {
       if (file) {
         const form = new FormData();
         form.append('role', role);
+                form.append('language', language);
         form.append('resume', file);
         res = await fetch(`${BASE}/analyze`, { method: 'POST', body: form });
       } else {
@@ -42,7 +43,7 @@ export default function App() {
         res = await fetch(`${BASE}/analyze`, {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ role, skills }),
+                    body: JSON.stringify({ role, skills, language }),
         });
       }
       const data = await res.json();
@@ -90,7 +91,12 @@ export default function App() {
             <option key={r} value={r}>{r}</option>
           ))}
         </select>
-
+        <label>Roadmap language</label>
+        <select value={language} onChange={(e) => setLanguage(e.target.value)}>
+          <option value="English">English</option>
+          <option value="Tamil">தமிழ் (Tamil)</option>
+          <option value="Hindi">हिन्दी (Hindi)</option>
+        </select>
         <label>Upload your resume (PDF)</label>
         <input type="file" accept="application/pdf"
           onChange={(e) => setFile(e.target.files[0] || null)} />
