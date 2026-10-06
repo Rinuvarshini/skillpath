@@ -177,7 +177,7 @@ export default function App() {
                   <PolarGrid />
                   <PolarAngleAxis dataKey="skill" />
                   <PolarRadiusAxis domain={[0, 100]} tick={false} axisLine={false} />
-                  <Radar dataKey="value" stroke="#2563eb" fill="#2563eb" fillOpacity={0.4} />
+                  <Radar dataKey="value" stroke="#7c3aed" fill="#7c3aed" fillOpacity={0.4} />
                 </RadarChart>
               </ResponsiveContainer>
             </div>
