@@ -4,26 +4,54 @@ import {
 } from 'recharts';
 
 const BASE = import.meta.env.VITE_API_URL || 'http://localhost:5000/api';
+const STORAGE_KEY = 'skillpath-saved';
+
+// read the saved session from the browser (returns null if nothing or if it fails)
+function loadSaved() {
+  try {
+    const raw = localStorage.getItem(STORAGE_KEY);
+    return raw ? JSON.parse(raw) : null;
+  } catch {
+    return null;
+  }
+}
 
 export default function App() {
-  const [role, setRole] = useState('Data Analyst');
+  const [saved] = useState(loadSaved);
+
+  const [role, setRole] = useState(saved?.role || 'Data Analyst');
   const [roles, setRoles] = useState([]);
+  const [language, setLanguage] = useState(saved?.language || 'English');
   const [skillsText, setSkillsText] = useState('python, excel, mysql');
   const [file, setFile] = useState(null);
-  const [result, setResult] = useState(null);
-  const [roadmap, setRoadmap] = useState([]);
+  const [result, setResult] = useState(saved?.result || null);
+  const [roadmap, setRoadmap] = useState(saved?.roadmap || []);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
-  const [language, setLanguage] = useState('English');
+
+  // load the list of roles for the dropdown
   useEffect(() => {
     fetch(`${BASE}/roles`)
       .then((r) => r.json())
       .then((list) => {
         setRoles(list);
-        if (list.length) setRole(list[0]);
+        setRole((current) => (list.includes(current) ? current : list[0]));
       })
       .catch(() => {});
   }, []);
+
+  // save the result and the ticked weeks whenever they change
+  useEffect(() => {
+    if (!result) return;
+    try {
+      localStorage.setItem(
+        STORAGE_KEY,
+        JSON.stringify({ role: result.role, language, result, roadmap })
+      );
+    } catch {
+      // saving is optional, so ignore errors
+    }
+  }, [result, roadmap, language]);
 
   async function handleAnalyze() {
     setLoading(true);
@@ -35,7 +63,7 @@ export default function App() {
       if (file) {
         const form = new FormData();
         form.append('role', role);
-                form.append('language', language);
+        form.append('language', language);
         form.append('resume', file);
         res = await fetch(`${BASE}/analyze`, { method: 'POST', body: form });
       } else {
@@ -43,7 +71,7 @@ export default function App() {
         res = await fetch(`${BASE}/analyze`, {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
-                    body: JSON.stringify({ role, skills, language }),
+          body: JSON.stringify({ role, skills, language }),
         });
       }
       const data = await res.json();
@@ -60,6 +88,19 @@ export default function App() {
     setRoadmap((prev) =>
       prev.map((w) => (w.week === weekNumber ? { ...w, done: !w.done } : w))
     );
+  }
+
+  // clear the saved session and start fresh
+  function startOver() {
+    try {
+      localStorage.removeItem(STORAGE_KEY);
+    } catch {
+      // ignore
+    }
+    setResult(null);
+    setRoadmap([]);
+    setFile(null);
+    setError('');
   }
 
   const doneCount = roadmap.filter((w) => w.done).length;
@@ -91,12 +132,14 @@ export default function App() {
             <option key={r} value={r}>{r}</option>
           ))}
         </select>
+
         <label>Roadmap language</label>
         <select value={language} onChange={(e) => setLanguage(e.target.value)}>
           <option value="English">English</option>
           <option value="Tamil">தமிழ் (Tamil)</option>
           <option value="Hindi">हिन्दी (Hindi)</option>
         </select>
+
         <label>Upload your resume (PDF)</label>
         <input type="file" accept="application/pdf"
           onChange={(e) => setFile(e.target.files[0] || null)} />
@@ -108,6 +151,12 @@ export default function App() {
         <button className="btn" onClick={handleAnalyze} disabled={loading}>
           {loading ? 'Analyzing... (can take a few seconds)' : 'Analyze my skills'}
         </button>
+        {result && (
+          <button className="btn" onClick={startOver}
+            style={{ marginLeft: 10, background: '#6b7280' }}>
+            Start over
+          </button>
+        )}
         {error && <p className="error">{error}</p>}
       </div>
 
