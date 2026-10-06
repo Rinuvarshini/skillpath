@@ -1,0 +1,61 @@
+[
+  {
+    "name": "Data Analyst",
+    "skills": [
+      { "name": "Python", "aliases": ["py"], "level": "core",
+        "resources": [{ "title": "W3Schools Python Tutorial", "url": "https://www.w3schools.com/python/", "type": "article" }] },
+      { "name": "SQL", "aliases": ["mysql", "postgresql"], "level": "core",
+        "resources": [{ "title": "W3Schools SQL Tutorial", "url": "https://www.w3schools.com/sql/", "type": "article" }] },
+      { "name": "Excel", "aliases": ["ms excel"], "level": "core",
+        "resources": [{ "title": "W3Schools Excel Tutorial", "url": "https://www.w3schools.com/excel/", "type": "article" }] },
+      { "name": "Power BI", "aliases": ["powerbi"], "level": "core",
+        "resources": [{ "title": "Microsoft Learn: Power BI", "url": "https://learn.microsoft.com/en-us/training/powerplatform/power-bi/", "type": "course" }] },
+      { "name": "Statistics", "aliases": ["stats"], "level": "core",
+        "resources": [{ "title": "Khan Academy: Statistics and Probability", "url": "https://www.khanacademy.org/math/statistics-probability", "type": "course" }] },
+      { "name": "Tableau", "aliases": [], "level": "nice",
+        "resources": [{ "title": "Tableau Free Training Videos", "url": "https://www.tableau.com/learn/training", "type": "video" }] }
+    ]
+  },
+  {
+    "name": "Frontend Developer",
+    "skills": [
+      { "name": "HTML", "aliases": ["html5"], "level": "core",
+        "resources": [{ "title": "W3Schools HTML Tutorial", "url": "https://www.w3schools.com/html/", "type": "article" }] },
+      { "name": "CSS", "aliases": ["css3"], "level": "core",
+        "resources": [{ "title": "W3Schools CSS Tutorial", "url": "https://www.w3schools.com/css/", "type": "article" }] },
+      { "name": "JavaScript", "aliases": ["ecmascript", "es6"], "level": "core",
+        "resources": [{ "title": "W3Schools JavaScript Tutorial", "url": "https://www.w3schools.com/js/", "type": "article" }] },
+      { "name": "React", "aliases": ["reactjs", "react.js"], "level": "core",
+        "resources": [{ "title": "W3Schools React Tutorial", "url": "https://www.w3schools.com/react/", "type": "article" }] },
+      { "name": "Git", "aliases": ["github"], "level": "core",
+        "resources": [{ "title": "W3Schools Git Tutorial", "url": "https://www.w3schools.com/git/", "type": "article" }] },
+      { "name": "Responsive Design", "aliases": ["responsive", "media queries"], "level": "core",
+        "resources": [{ "title": "W3Schools Responsive Web Design", "url": "https://www.w3schools.com/css/css_rwd_intro.asp", "type": "article" }] },
+      { "name": "Bootstrap", "aliases": [], "level": "nice",
+        "resources": [{ "title": "W3Schools Bootstrap 5 Tutorial", "url": "https://www.w3schools.com/bootstrap5/", "type": "article" }] },
+      { "name": "TypeScript", "aliases": [], "level": "nice",
+        "resources": [{ "title": "W3Schools TypeScript Tutorial", "url": "https://www.w3schools.com/typescript/", "type": "article" }] }
+    ]
+  },
+  {
+    "name": "Backend Developer",
+    "skills": [
+      { "name": "Node.js", "aliases": ["nodejs", "node"], "level": "core",
+        "resources": [{ "title": "W3Schools Node.js Tutorial", "url": "https://www.w3schools.com/nodejs/", "type": "article" }] },
+      { "name": "Express", "aliases": ["express.js", "expressjs"], "level": "core",
+        "resources": [{ "title": "Express Official Guide", "url": "https://expressjs.com/en/starter/installing.html", "type": "article" }] },
+      { "name": "MongoDB", "aliases": ["mongo"], "level": "core",
+        "resources": [{ "title": "W3Schools MongoDB Tutorial", "url": "https://www.w3schools.com/mongodb/", "type": "article" }] },
+      { "name": "SQL", "aliases": ["mysql", "postgresql"], "level": "core",
+        "resources": [{ "title": "W3Schools SQL Tutorial", "url": "https://www.w3schools.com/sql/", "type": "article" }] },
+      { "name": "REST API", "aliases": ["restful", "rest apis", "restful api"], "level": "core",
+        "resources": [{ "title": "REST API Tutorial", "url": "https://restfulapi.net/", "type": "article" }] },
+      { "name": "Git", "aliases": ["github"], "level": "core",
+        "resources": [{ "title": "W3Schools Git Tutorial", "url": "https://www.w3schools.com/git/", "type": "article" }] },
+      { "name": "Authentication", "aliases": ["jwt", "oauth"], "level": "nice",
+        "resources": [{ "title": "Introduction to JSON Web Tokens", "url": "https://jwt.io/introduction", "type": "article" }] },
+      { "name": "Docker", "aliases": [], "level": "nice",
+        "resources": [{ "title": "Docker Get Started", "url": "https://docs.docker.com/get-started/", "type": "course" }] }
+    ]
+  }
+]
