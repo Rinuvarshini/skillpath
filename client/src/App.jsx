@@ -30,14 +30,30 @@ export default function App() {
   const [error, setError] = useState('');
 
   // load the list of roles for the dropdown
+    const [rolesMsg, setRolesMsg] = useState('');
+
   useEffect(() => {
-    fetch(`${BASE}/roles`)
-      .then((r) => r.json())
-      .then((list) => {
+    let cancelled = false;
+    async function loadRoles(attempt = 1) {
+      try {
+        const res = await fetch(`${BASE}/roles`);
+        const list = await res.json();
+        if (cancelled) return;
         setRoles(list);
+        setRolesMsg('');
         setRole((current) => (list.includes(current) ? current : list[0]));
-      })
-      .catch(() => {});
+      } catch {
+        if (cancelled) return;
+        if (attempt < 8) {
+          setRolesMsg('Waking up the server, please wait...');
+          setTimeout(() => loadRoles(attempt + 1), 5000);
+        } else {
+          setRolesMsg('Could not reach the server. Please refresh the page.');
+        }
+      }
+    }
+    loadRoles();
+    return () => { cancelled = true; };
   }, []);
 
   // save the result and the ticked weeks whenever they change
@@ -132,7 +148,7 @@ export default function App() {
             <option key={r} value={r}>{r}</option>
           ))}
         </select>
-
+        {rolesMsg && <p style={{ color: '#6b7280', marginTop: -8 }}>{rolesMsg}</p>}
         <label>Roadmap language</label>
         <select value={language} onChange={(e) => setLanguage(e.target.value)}>
           <option value="English">English</option>
