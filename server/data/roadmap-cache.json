@@ -1,0 +1,1447 @@
+{
+  "Data Analyst|Python,SQL,Excel,Statistics|Power BI,Tableau|English": [
+    {
+      "week": 1,
+      "topic": "Introduction to Power BI",
+      "skills": [
+        "Power BI"
+      ],
+      "explanation": "Power BI is an essential business intelligence tool used to connect, transform, and visualize data efficiently. Mastering it allows you to build interactive dashboards for stakeholders.",
+      "project": "Import a public CSV dataset into Power BI, clean the data using Power Query, and create a basic sales summary dashboard with three charts."
+    },
+    {
+      "week": 2,
+      "topic": "Advanced Power BI and DAX",
+      "skills": [
+        "Power BI"
+      ],
+      "explanation": "Data Analysis Expressions (DAX) are crucial for creating calculated columns and measures that drive deeper business insights in Power BI.",
+      "project": "Build a financial performance dashboard using DAX measures for year-over-year growth and profit margins."
+    },
+    {
+      "week": 3,
+      "topic": "Introduction to Tableau",
+      "skills": [
+        "Tableau"
+      ],
+      "explanation": "Tableau is a leading data visualization platform renowned for its drag-and-drop interface and ability to handle large datasets effortlessly.",
+      "project": "Connect a customer churn dataset to Tableau and design a series of interactive geographical and demographic charts."
+    },
+    {
+      "week": 4,
+      "topic": "Advanced Tableau and Dashboard Design",
+      "skills": [
+        "Tableau"
+      ],
+      "explanation": "Advanced Tableau features like calculated fields, parameters, and story points enable you to present compelling, narrative-driven data stories to leadership.",
+      "project": "Develop a comprehensive Tableau story combining multiple filters, parameters, and calculated fields to analyze retail store performance."
+    }
+  ],
+  "Data Analyst|Python,SQL,Excel|Power BI,Statistics,Tableau|Tamil": [
+    {
+      "week": 1,
+      "topic": "புள்ளிவிவர அடிப்படைகள்",
+      "skills": [
+        "Statistics"
+      ],
+      "explanation": "டேட்டாவைச் சரியாகப் புரிந்துகொள்ளவும் பகுப்பாய்வு செய்யவும் அடிப்படை புள்ளிவிவர அறிவு மிகவும் அவசியமானது.",
+      "project": "ஒரு சிறிய டேட்டா தொகுப்பிற்கு மீன், மீடியன் மற்றும் ஸ்டாண்டர்ட் டெவியேஷன் கணக்கிடுதல்."
+    },
+    {
+      "week": 2,
+      "topic": "பவர் பிஐ அறிமுகம்",
+      "skills": [
+        "Power BI"
+      ],
+      "explanation": "வணிக முடிவுகளை எடுக்க உதவும் இன்டராக்டிவ் டாஷ்போர்டுகளை உருவாக்க இந்த கருவி உதவுகிறது.",
+      "project": "எக்செல் டேட்டாவைப் பயன்படுத்தி ஒரு அடிப்படை சேல்ஸ் டாஷ்போர்டு உருவாக்குதல்."
+    },
+    {
+      "week": 3,
+      "topic": "டாப்யூ அடிப்படைகள்",
+      "skills": [
+        "Tableau"
+      ],
+      "explanation": "டேட்டாவை எளிதில் காட்சிப்படுத்தவும், பார்வையாளர்களுக்கு புரிய வைக்கும் விசிவலைசேஷன் செய்யவும் இது பயன்படுகிறது.",
+      "project": "சில முக்கிய கிராஃப்கள் மற்றும் மேப்களை உள்ளடக்கிய டேப்யூ ஒர்க்ஷீட் தயாரித்தல்."
+    },
+    {
+      "week": 4,
+      "topic": "மேம்பட்ட விசுவலைசேஷன் மற்றும் ஒருங்கிணைப்பு",
+      "skills": [
+        "Power BI",
+        "Tableau"
+      ],
+      "explanation": "இரு முக்கிய விசுவலைசேஷன் கருவிகளையும் பயன்படுத்தி சிறந்த டேட்டா ஸ்டோரிடெலிங் செய்வது எப்படி என்பதைப் புரிந்து கொள்ளுதல்.",
+      "project": "ஒரே டேட்டா தொகுப்பைப் பயன்படுத்தி பவர் பிஐ மற்றும் டாப்யூ இரண்டிலும் ஒப்பிட்டு டாஷ்போர்டு உருவாக்குதல்."
+    }
+  ],
+  "Data Analyst|Python,SQL,Excel|Power BI,Statistics,Tableau|Hindi": [
+    {
+      "week": 1,
+      "topic": "सांख्यिकी की मूल बातें",
+      "skills": [
+        "Statistics"
+      ],
+      "explanation": "डेटा को समझने और उसका विश्लेषण करने के लिए बुनियादी सांख्यिकी और गणितीय नियमों को जानना सबसे पहला कदम है।",
+      "project": "एक छोटे डेटासेट पर माध्य (mean), माध्यिका (median), और मानक विचलन (standard deviation) की गणना करना।"
+    },
+    {
+      "week": 2,
+      "topic": "पावर बीआई का परिचय",
+      "skills": [
+        "Power BI"
+      ],
+      "explanation": "यह टूल आपको डेटा को जोड़ने और विजुअल डैशबोर्ड बनाने में मदद करता है, जो डेटा एनालिस्ट के लिए बहुत जरूरी है।",
+      "project": "एक बुनियादी सेल्स डैशबोर्ड बनाना जिसमें बार चार्ट और पाई चार्ट शामिल हों।"
+    },
+    {
+      "week": 3,
+      "topic": "टेबल्यू का परिचय",
+      "skills": [
+        "Tableau"
+      ],
+      "explanation": "टेबल्यू एक अन्य प्रमुख डेटा विजुअलिसन टूल है जो आपको आकर्षक और इंटरैक्टिव रिपोर्ट्स तैयार करने की अनुमति देता है।",
+      "project": "एक वैश्विक स्टोर के डेटा का उपयोग करके क्षेत्रीय प्रदर्शन दिखाने वाला एक विजुअल डैशबोर्ड बनाना।"
+    },
+    {
+      "week": 4,
+      "topic": "उन्नत डैशबोर्ड और रिपोर्टिंग",
+      "skills": [
+        "Power BI",
+        "Tableau"
+      ],
+      "explanation": "इन दोनों टूल्स का एक साथ अभ्यास करने से आप अधिक जटिल और पेशेवर व्यावसायिक रिपोर्ट बना सकेंगे।",
+      "project": "एक ही डेटा का उपयोग करके पावर बीआई और टेबल्यू दोनों में तुलनात्मक डैशबोर्ड तैयार करना।"
+    }
+  ],
+  "Frontend Developer|HTML,CSS,JavaScript,Git,Bootstrap|React,Responsive Design,TypeScript|English": [
+    {
+      "week": 1,
+      "topic": "Responsive Design Foundations",
+      "skills": [
+        "Responsive Design"
+      ],
+      "explanation": "Mastering media queries and flexible layouts ensures your websites look and function perfectly across all screen sizes and devices.",
+      "project": "Build a fully responsive mobile-first landing page that adapts seamlessly from smartphones to desktop screens."
+    },
+    {
+      "week": 2,
+      "topic": "Introduction to React",
+      "skills": [
+        "React"
+      ],
+      "explanation": "React introduces component-based architecture, allowing you to build complex user interfaces using reusable and manageable pieces.",
+      "project": "Create a dynamic task tracker application using functional components and basic state management."
+    },
+    {
+      "week": 3,
+      "topic": "Advanced React and Hooks",
+      "skills": [
+        "React"
+      ],
+      "explanation": "Deepening your knowledge of React hooks and side effects enables you to handle asynchronous data fetching and complex component lifecycles.",
+      "project": "Develop a weather dashboard application that fetches and displays live data from a public API."
+    },
+    {
+      "week": 4,
+      "topic": "TypeScript Basics",
+      "skills": [
+        "TypeScript"
+      ],
+      "explanation": "TypeScript adds static typing to JavaScript, catching errors early during development and improving code maintainability.",
+      "project": "Refactor a vanilla JavaScript calculator to use strict TypeScript interfaces and types."
+    },
+    {
+      "week": 5,
+      "topic": "React with TypeScript",
+      "skills": [
+        "React",
+        "TypeScript"
+      ],
+      "explanation": "Combining React with TypeScript is an industry standard that ensures your component props and state are strictly typed and bug-free.",
+      "project": "Build an e-commerce product catalog with typed state, custom hooks, and a responsive shopping cart."
+    }
+  ],
+  "Frontend Developer|HTML,CSS,JavaScript,Git,Bootstrap|React,Responsive Design,TypeScript|Tamil": [
+    {
+      "week": 1,
+      "topic": "ரெஸ்பான்சிவ் டிசைன் அடிப்படைகள்",
+      "skills": [
+        "Responsive Design"
+      ],
+      "explanation": "வெவ்வேறு திரை அளவுகளில் இணையதளங்கள் சரியாகத் தோன்றுவதை உறுதி செய்ய இது மிகவும் முக்கியமானது.",
+      "project": "மொபைல் மற்றும் டெஸ்க்டாப் திரைகளுக்கு ஏற்ப மாறக்கூடிய ஒரு வலைப்பக்கத்தை உருவாக்குதல்."
+    },
+    {
+      "week": 2,
+      "topic": "ரியாக்ட் அடிப்படைகள்",
+      "skills": [
+        "React"
+      ],
+      "explanation": "நவீன இணைய பயன்பாடுகளைக் கூறுகள் (components) மூலமாக எளிதாக உருவாக்க இந்த நூலகம் உதவுகிறது.",
+      "project": "ஒரு எளிய டோ-லிஸ்ட் (To-do list) செயலியை உருவாக்குதல்."
+    },
+    {
+      "week": 3,
+      "topic": "டைப்ஸ்கிரிப்ட் அறிமுகம்",
+      "skills": [
+        "TypeScript"
+      ],
+      "explanation": "ஜாவாஸ்கிரிப்ட்டில் பிழைகளைக் முன்கூட்டியே கண்டறிந்து குறியீட்டைப் பாதுகாக்க இது உதவுகிறது.",
+      "project": "ஏற்கனவே செய்த ரியாக்ட் செயலியை டைப்ஸ்கிரிப்ட்டிற்கு மாற்றுதல்."
+    }
+  ],
+  "Backend Developer|Node.js,Express,MongoDB,Git|SQL,REST API,Authentication,Docker|English": [
+    {
+      "week": 1,
+      "topic": "Relational Databases with SQL",
+      "skills": [
+        "SQL"
+      ],
+      "explanation": "Understanding relational databases and writing queries is essential since you already know MongoDB, allowing you to compare NoSQL and SQL paradigms.",
+      "project": "Design a relational database schema for a blog application and write CRUD queries."
+    },
+    {
+      "week": 2,
+      "topic": "API Design and REST Principles",
+      "skills": [
+        "REST API"
+      ],
+      "explanation": "Building robust REST APIs ensures your Node.js and Express backend can communicate effectively with clients following standard architectural conventions.",
+      "project": "Build a set of well-structured API endpoints for a task management application."
+    },
+    {
+      "week": 3,
+      "topic": "Secure User Authentication",
+      "skills": [
+        "Authentication"
+      ],
+      "explanation": "Implementing authentication protects user data and ensures secure access control across your backend applications.",
+      "project": "Add user registration, login, and password hashing with JWT to your task management API."
+    },
+    {
+      "week": 4,
+      "topic": "Containerization with Docker",
+      "skills": [
+        "Docker"
+      ],
+      "explanation": "Docker allows you to package your backend application and its dependencies into a container to ensure consistent environments across development and production.",
+      "project": "Create a Dockerfile and docker-compose file to run your Node.js app and database together."
+    }
+  ],
+  "Backend Developer|Node.js,Express,MongoDB,Git|SQL,REST API,Authentication,Docker|Tamil": [
+    {
+      "week": 1,
+      "topic": "ரெஸ்ட் ஏபிஐ வடிவமைப்பு",
+      "skills": [
+        "REST API"
+      ],
+      "explanation": "கி라이언트 மற்றும் சர்வர் இடையே தரவு பரிமாற்றம் செய்ய நிலையான வழிகளை உருவாக்குவது backend வளர்ச்சியில் மிக அவசியமானது.",
+      "project": "Node.js மற்றும் Express பயன்படுத்தி ஒரு அடிப்படை யூசர் மேலாண்மை REST API உருவாக்குவது."
+    },
+    {
+      "week": 2,
+      "topic": "பயனர் அங்கீகாரம்",
+      "skills": [
+        "Authentication"
+      ],
+      "explanation": "பயனர்களின் தரவைப் பாதுகாக்க பாதுகாப்பான லாகின் மற்றும் சைன்-அப் முறைகளை உருவாக்குவது அவசியமாகும்.",
+      "project": "JWT (JSON Web Tokens) பயன்படுத்தி லாகின் மற்றும் லாக் அவுட் வசதியுடன் கூடிய அங்கீகார அமைப்பு."
+    },
+    {
+      "week": 3,
+      "topic": "SQL தரவுத்தளம்",
+      "skills": [
+        "SQL"
+      ],
+      "explanation": "MongoDB போன்ற NoSQL தவிர, உறவுமுறை தரவுத்தளங்களை (Relational Databases) கையாள்வது தொழில்முறை வேலைகளுக்கு மிகவும் தேவை.",
+      "project": "PostgreSQL அல்லது MySQL பயன்படுத்தி ஒரு ஈ-காமர்ஸ் தயாரிப்பு பட்டியலுக்கான அட்டவணைகளை உருவாக்குவது."
+    },
+    {
+      "week": 4,
+      "topic": "டோக்கர் மூலம் கன்டெய்னரைசேஷன்",
+      "skills": [
+        "Docker"
+      ],
+      "explanation": "பல்வேறு சூழல்களில் உங்கள் அப்ளிகேஷன் சீராக இயங்குவதை உறுதி செய்ய டோக்கர் பயன்படுகிறது.",
+      "project": "உங்கள் Express மற்றும் SQL அப்ளிகேஷனை Docker மூலம் கன்டெய்னர் செய்து இயக்குவது."
+    }
+  ],
+  "Full Stack Developer|HTML,CSS,JavaScript,React,Node.js,Git|Express,MongoDB,REST API,TypeScript|English": [
+    {
+      "week": 1,
+      "topic": "Backend Foundations with Express",
+      "skills": [
+        "Express"
+      ],
+      "explanation": "Express is a minimalist web framework for Node.js that simplifies building robust servers and routing requests.",
+      "project": "Build a basic server with multiple routes that return JSON responses."
+    },
+    {
+      "week": 2,
+      "topic": "Designing a REST API",
+      "skills": [
+        "REST API"
+      ],
+      "explanation": "Learning REST architecture principles allows your backend to communicate effectively with front-end applications using standard HTTP methods.",
+      "project": "Create a server that handles CRUD operations for a resource like a todo list."
+    },
+    {
+      "week": 3,
+      "topic": "Database Management with MongoDB",
+      "skills": [
+        "MongoDB"
+      ],
+      "explanation": "MongoDB is a flexible NoSQL database that stores data in JSON-like documents, making it a natural fit for Node.js applications.",
+      "project": "Connect your Express server to a database to persist user-submitted data."
+    },
+    {
+      "week": 4,
+      "topic": "Type Safety with TypeScript",
+      "skills": [
+        "TypeScript"
+      ],
+      "explanation": "TypeScript adds static typing to JavaScript, helping you catch errors early and write more maintainable code.",
+      "project": "Refactor a previous Node.js and Express project to be fully typed using interfaces and types."
+    }
+  ],
+  "Full Stack Developer|HTML,CSS,JavaScript,React,Node.js,Git|Express,MongoDB,REST API,TypeScript|Tamil": [
+    {
+      "week": 1,
+      "topic": "Express மூலம் Server உருவாக்கம்",
+      "skills": [
+        "Express"
+      ],
+      "explanation": "Node.js-ஐ அடிப்படையாகக் கொண்டு விரைவாகவும் எளிதாகவும் Web Server உருவாக்க இது மிகவும் உதவும்.",
+      "project": "Express பயன்படுத்தி ஒரு எளிய வலைப்பக்கத்தை உருவாக்குதல்."
+    },
+    {
+      "week": 2,
+      "topic": "REST API வடிவமைப்பு",
+      "skills": [
+        "REST API"
+      ],
+      "explanation": "Front-end மற்றும் Back-end இடையே தரவுகளை (data) பரிமாறிக்கொள்ள முறையான வழிகளை அறிய இது உதவும்.",
+      "project": "CRUD செயல்பாடுகளுடன் கூடிய ஒரு எளிய API-ஐ உருவாக்குதல்."
+    },
+    {
+      "week": 3,
+      "topic": "MongoDB டேட்டாபேஸ்",
+      "skills": [
+        "MongoDB"
+      ],
+      "explanation": "நம்முடைய பயன்பாட்டிற்கான தகவல்களை நிரந்தரமாக சேமித்து நிர்வகிக்க இது பயன்படும்.",
+      "project": "Express மற்றும் MongoDB-ஐ இணைத்து தகவல்களை சேமிக்கும் முறை."
+    },
+    {
+      "week": 4,
+      "topic": "TypeScript அறிமுகம்",
+      "skills": [
+        "TypeScript"
+      ],
+      "explanation": "JavaScript-ல் உள்ள பிழைகளை முன்கூட்டியே கண்டறிந்து, பாதுகாப்பான குறியீடுகளை எழுத இது உதவும்.",
+      "project": "ஜாவாஸ்கிரிப்ட் கோப்புகளை டைப்ஸ்கிரிப்ட்டாக மாற்றுதல்."
+    }
+  ],
+  "Full Stack Developer|HTML,CSS,JavaScript,React,Node.js,Git|Express,MongoDB,REST API,TypeScript|Hindi": [
+    {
+      "week": 1,
+      "topic": "Express and REST API Foundations",
+      "skills": [
+        "Express",
+        "REST API"
+      ],
+      "explanation": "Express ki madad se Node.js mein server banana aasaan ho jata hai aur REST API ke zariye client aur server ke beech communication establish hoti hai.",
+      "project": "Ek basic server banayein jo JSON data return kare."
+    },
+    {
+      "week": 2,
+      "topic": "MongoDB Database Integration",
+      "skills": [
+        "MongoDB"
+      ],
+      "explanation": "MongoDB ek NoSQL database hai jo modern web applications mein data ko flexibly store karne ke liye use hota hai.",
+      "project": "Express server ko MongoDB se connect karke users ka data save karein."
+    },
+    {
+      "week": 3,
+      "topic": "TypeScript Basics",
+      "skills": [
+        "TypeScript"
+      ],
+      "explanation": "TypeScript JavaScript mein static typing add karta hai, jisse bugs kam aate hain aur code zyada reliable banta hai.",
+      "project": "Apni pichli JavaScript file ko TypeScript mein convert karein."
+    },
+    {
+      "week": 4,
+      "topic": "Full Stack TypeScript Integration",
+      "skills": [
+        "TypeScript",
+        "Express",
+        "MongoDB",
+        "REST API"
+      ],
+      "explanation": "In sabhi skills ko ek sath use karke ek complete, type-safe full-stack backend application banaya jata hai jo industry standards ke mutabiq hota hai.",
+      "project": "Ek complete CRUD application banayein jisme TypeScript, Express, MongoDB aur REST APIs ka use ho."
+    }
+  ],
+  "Python Developer|Python,OOP,SQL,Git|Flask,REST API,Testing,Docker|English": [
+    {
+      "week": 1,
+      "topic": "Building APIs",
+      "skills": [
+        "REST API"
+      ],
+      "explanation": "Understanding REST principles allows you to design structured, stateless web services that communicate effectively over HTTP.",
+      "project": "Design a basic API architecture on paper and document endpoints for a simple resource."
+    },
+    {
+      "week": 2,
+      "topic": "Microservices with Flask",
+      "skills": [
+        "Flask"
+      ],
+      "explanation": "Flask is a lightweight web framework that helps you quickly turn your Python and SQL knowledge into working backend applications.",
+      "project": "Build a simple web application with routes that perform CRUD operations using your SQL knowledge."
+    },
+    {
+      "week": 3,
+      "topic": "Ensuring Code Quality",
+      "skills": [
+        "Testing"
+      ],
+      "explanation": "Writing automated tests ensures your code is reliable, prevents regressions, and gives you confidence when making changes.",
+      "project": "Write unit tests for the Flask application routes you created in the previous week."
+    },
+    {
+      "week": 4,
+      "topic": "Containerization",
+      "skills": [
+        "Docker"
+      ],
+      "explanation": "Docker packages your application and all its dependencies into a single container, ensuring it runs smoothly on any machine.",
+      "project": "Create a Dockerfile to containerize your Flask application and run it locally in a container."
+    }
+  ],
+  "Python Developer|Python,OOP,SQL,Git|Flask,REST API,Testing,Docker|Tamil": [
+    {
+      "week": 1,
+      "topic": "REST API அறிமுகம்",
+      "skills": [
+        "REST API"
+      ],
+      "explanation": "வலை சேவைகள் எவ்வாறு தரவைப் பரிமாறிக் கொள்கின்றன என்பதைப் புரிந்துகொள்ள இது அடிப்படையாகும்.",
+      "project": "ஒரு எளிய JSON தரவை வழங்கும் அடிப்படை API ஐ உருவாக்குதல்."
+    },
+    {
+      "week": 2,
+      "topic": "Flask கட்டமைப்பு",
+      "skills": [
+        "Flask"
+      ],
+      "explanation": "பைத்தானைப் பயன்படுத்தி இலகுவான வலைப் பயன்பாடுகளை உருவாக்க இந்த கட்டமைப்பு உதவுகிறது.",
+      "project": "ஒரு எளிய வலைப்பக்கம் மற்றும் வழிசெலுத்தலுடன் கூடிய Flask செயலியை உருவாக்குதல்."
+    },
+    {
+      "week": 3,
+      "topic": "Testing மற்றும் தரவுத்தள இணைப்புகள்",
+      "skills": [
+        "Testing"
+      ],
+      "explanation": "குறியீட்டில் பிழைகள் இல்லாமல் சரியாக வேலை செய்கிறதா என்பதை உறுதிப்படுத்த சோதனைகள் மிகவும் அவசியமானவை.",
+      "project": "Flask செயலியில் உள்ள செயல்பாடுகளைச் சோதிக்க சில unit test களை எழுதுதல்."
+    },
+    {
+      "week": 4,
+      "topic": "Docker கொள்கலனாக்கம்",
+      "skills": [
+        "Docker"
+      ],
+      "explanation": "பயன்பாடுகளை எந்தச் சூழலிலும் எளிதாக இயக்க மற்றும் பகிர Docker உதவுகிறது.",
+      "project": "முன்னர் உருவாக்கிய Flask செயலியை Docker பயன்படுத்தி கொள்கலனாக மாற்றுதல்."
+    }
+  ],
+  "Python Developer|Python,OOP,SQL,Git|Flask,REST API,Testing,Docker|Hindi": [
+    {
+      "week": 1,
+      "topic": "REST API के बुनियादी सिद्धांत",
+      "skills": [
+        "REST API"
+      ],
+      "explanation": "यह समझना बहुत जरूरी है कि वेब पर सिस्टम्स आपस में डेटा कैसे आदान-प्रदान करते हैं। यह आधुनिक वेब विकास की रीढ़ है।",
+      "project": "HTTP methods (GET, POST) का उपयोग करके एक डमी डेटा सर्वर को समझना।"
+    },
+    {
+      "week": 2,
+      "topic": "Flask के साथ वेब विकास",
+      "skills": [
+        "Flask"
+      ],
+      "explanation": "Flask एक हल्का और सीखने में आसान वेब फ्रेमवर्क है जो पाइथन में वेब एप्लिकेशन बनाने में मदद करता है।",
+      "project": "एक छोटा सा होमपेज बनाएं जो पाइथन डेटा को HTML पेज पर दिखाए।"
+    },
+    {
+      "week": 3,
+      "topic": "Flask और REST API का संयोजन",
+      "skills": [
+        "Flask",
+        "REST API"
+      ],
+      "explanation": "Flask का उपयोग करके अपने खुद के कस्टम API एंडपॉइंट्स बनाना सीखें ताकि क्लाइंट और सर्वर बात कर सकें।",
+      "project": "एक बेसिक टू-डू लिस्ट API बनाएं जिसमें CRUD ऑपरेशन (Create, Read, Update, Delete) शामिल हों।"
+    },
+    {
+      "week": 4,
+      "topic": "Testing का परिचय",
+      "skills": [
+        "Testing"
+      ],
+      "explanation": "कोड में बग्स को जल्दी पकड़ने और यह सुनिश्चित करने के लिए कि आपका एप्लिकेशन सही से काम कर रहा है, टेस्टिंग आवश्यक है।",
+      "project": "पिछले सप्ताह बनाए गए API के लिए पाइथन टेस्ट केस (Unit Tests) लिखें।"
+    },
+    {
+      "week": 5,
+      "topic": "Docker के साथ कंटेनरलाइजेशन",
+      "skills": [
+        "Docker"
+      ],
+      "explanation": "Docker आपके एप्लिकेशन और उसकी सभी डिपेंडेंसीज को एक साथ पैक करता है ताकि वह किसी भी कंप्यूटर पर आसानी से चल सके।",
+      "project": "अपने Flask API एप्लिकेशन के लिए एक Dockerfile बनाएं और उसे कंटेनर में चलाएं।"
+    }
+  ],
+  "Java Developer|Java,OOP,SQL,Git|Data Structures,Spring Boot,REST API,Maven|English": [
+    {
+      "week": 1,
+      "topic": "Fundamentals of Data Structures",
+      "skills": [
+        "Data Structures"
+      ],
+      "explanation": "Understanding data structures is essential for writing efficient algorithms and passing technical interviews.",
+      "project": "Implement custom list and map data structures from scratch."
+    },
+    {
+      "week": 2,
+      "topic": "Build Automation with Maven",
+      "skills": [
+        "Maven"
+      ],
+      "explanation": "Maven manages project dependencies and simplifies the build lifecycle for enterprise Java applications.",
+      "project": "Create a multi-module Java project managed entirely through Maven."
+    },
+    {
+      "week": 3,
+      "topic": "Building REST APIs",
+      "skills": [
+        "REST API"
+      ],
+      "explanation": "REST APIs allow different software systems to communicate over HTTP using standard protocols.",
+      "project": "Build a controller layer that handles standard HTTP requests and responses."
+    },
+    {
+      "week": 4,
+      "topic": "Enterprise Development with Spring Boot",
+      "skills": [
+        "Spring Boot"
+      ],
+      "explanation": "Spring Boot accelerates application development by providing pre-configured templates and dependency injection.",
+      "project": "Develop a complete backend service integrating a database with Spring Boot and Maven."
+    }
+  ],
+  "Java Developer|Java,OOP,SQL,Git|Data Structures,Spring Boot,REST API,Maven|Tamil": [
+    {
+      "week": 1,
+      "topic": "தரவு கட்டமைப்புகள் அடிப்படைகள்",
+      "skills": [
+        "Data Structures"
+      ],
+      "explanation": "நிகழ்நேர செயல்திறனை மேம்படுத்தவும், திறமையான வழிமுறைகளை எழுதவும் தரவு கட்டமைப்புகள் மிகவும் முக்கியமானவை.",
+      "project": "அடிப்படை வரிசை மற்றும் அடுக்கு சார்ந்த தரவு மேலாண்மை நிரலை உருவாக்குதல்"
+    },
+    {
+      "week": 2,
+      "topic": "கட்டமைப்பு மேலாண்மை",
+      "skills": [
+        "Maven"
+      ],
+      "explanation": "புராஜெக்ட்டின் சார்புகளை (dependencies) எளிதாக நிர்வகிக்கவும் பில்ட் செய்யவும Maven உதவுகிறது.",
+      "project": "ஒரு புதிய ஜாவா திட்டத்தை Maven பயன்படுத்தி அமைத்து வெளிப்புற நூலகங்களை சேர்த்தல்"
+    },
+    {
+      "week": 3,
+      "topic": "வலை சேவைகள் வடிவமைப்பு",
+      "skills": [
+        "REST API"
+      ],
+      "explanation": "வெவ்வேறு மென்பொருட்கள் அல்லது பிரவுசர்களுடன் ஜாவா செயலியை இணைக்க REST API உதவுகிறது.",
+      "project": "எளிய HTTP முறைகளைப் பயன்படுத்தி ஒரு சிறிய தரவு பரிமாற்ற சேவையை உருவாக்குதல்"
+    },
+    {
+      "week": 4,
+      "topic": "நவீன ஜாவா கட்டமைப்பு",
+      "skills": [
+        "Spring Boot"
+      ],
+      "explanation": "குறைந்த நேரத்தில் வலுவான மற்றும் பெரிய அளவிலான ஜாவா வெப் பயன்பாடுகளை உருவாக்க Spring Boot பயன்படும்.",
+      "project": "REST API மற்றும் Maven பயன்படுத்தி ஒரு எளிய CRUD பயன்பாட்டை Spring Boot-ல் உருவாக்குதல்"
+    }
+  ],
+  "Java Developer|Java,OOP,SQL,Git|Data Structures,Spring Boot,REST API,Maven|Hindi": [
+    {
+      "week": 1,
+      "topic": "डेटा स्ट्रक्चर्स की मूल बातें",
+      "skills": [
+        "Data Structures"
+      ],
+      "explanation": "कुशल एल्गोरिदम लिखने और कोडिंग इंटरव्यू पास करने के लिए डेटा स्ट्रक्चर्स बहुत महत्वपूर्ण हैं।",
+      "project": "बेसिक एरे और लिंक्ड लिस्ट ऑपरेशंस को लागू करना।"
+    },
+    {
+      "week": 2,
+      "topic": "बिल्ड मैनेजमेंट टूल्स",
+      "skills": [
+        "Maven"
+      ],
+      "explanation": "जावा प्रोजेक्ट्स में डिपेंडेंसी और बिल्ड प्रोसेस को प्रबंधित करने के लिए यह एक आवश्यक टूल है।",
+      "project": "एक साधारण जावा प्रोजेक्ट बनाना और मैवेन का उपयोग करके एक्सटर्नल लाइब्रेरी जोड़ना।"
+    },
+    {
+      "week": 3,
+      "topic": "वेब सर्विसेस और एपीआई डिज़ाइन",
+      "skills": [
+        "REST API"
+      ],
+      "explanation": "विभिन्न सॉफ़्टवेयर प्रणालियों के बीच संवाद स्थापित करने के लिए रेस्ट एपीआई का ज्ञान होना जरूरी है।",
+      "project": "कंसोल-आधारित बेसिक एपीआई एंडपॉइंट्स की संरचना तैयार करना।"
+    },
+    {
+      "week": 4,
+      "topic": "एडवांस्ड डेटा स्ट्रक्चर्स",
+      "skills": [
+        "Data Structures"
+      ],
+      "explanation": "डेटा को तेजी से खोजने और सॉर्ट करने के लिए स्टैक, क्यु और ट्री जैसे स्ट्रक्चर्स को समझना आवश्यक है।",
+      "project": "स्टैक का उपयोग करके एक्सप्रेशन वैलिडेटर बनाना।"
+    },
+    {
+      "week": 5,
+      "topic": "मॉडर्न जावा फ्रेमवर्क",
+      "skills": [
+        "Spring Boot"
+      ],
+      "explanation": "स्प्रिंग बूट की मदद से एंटरप्राइज-लेवल वेब एप्लिकेशन बहुत कम समय में बनाए जा सकते हैं।",
+      "project": "एक बेसिक स्प्रिंग बूट एप्लीकेशन सेटअप करना।"
+    },
+    {
+      "week": 6,
+      "topic": "एपीआई और फ्रेमवर्क का एकीकरण",
+      "skills": [
+        "Spring Boot",
+        "REST API"
+      ],
+      "explanation": "स्प्रिंग बूट का उपयोग करके वास्तविक वेब सेवाएं और रेस्ट एपीआई विकसित करना सीखना।",
+      "project": "एक संपूर्ण रेस्टफुल वेब सर्विस बनाना जो डेटा को प्रोसेस कर सके।"
+    }
+  ],
+  "Machine Learning Engineer|Python,NumPy,Pandas,Statistics,SQL|Machine Learning,Scikit-learn,Git,Deep Learning|English": [
+    {
+      "week": 1,
+      "topic": "Version Control Basics",
+      "skills": [
+        "Git"
+      ],
+      "explanation": "Learning Git allows you to track code changes, collaborate with others, and safely manage your upcoming machine learning projects.",
+      "project": "Initialize a local repository for a python project, make commits, and push it to a remote repository."
+    },
+    {
+      "week": 2,
+      "topic": "Introduction to Machine Learning",
+      "skills": [
+        "Machine Learning"
+      ],
+      "explanation": "This week introduces core concepts of supervised and unsupervised learning, laying the theoretical foundation for building predictive models.",
+      "project": "Write out the conceptual framework and workflow for a classification problem on a dataset of your choice."
+    },
+    {
+      "week": 3,
+      "topic": "Applied Machine Learning with Scikit-learn",
+      "skills": [
+        "Scikit-learn"
+      ],
+      "explanation": "Scikit-learn provides efficient tools for data preprocessing, model training, and evaluation, which are essential for practical implementation.",
+      "project": "Build, train, and evaluate a baseline classification model using a standard tabular dataset."
+    },
+    {
+      "week": 4,
+      "topic": "Introduction to Deep Learning",
+      "skills": [
+        "Deep Learning"
+      ],
+      "explanation": "Deep learning enables you to model complex patterns using neural networks, moving beyond traditional machine learning algorithms.",
+      "project": "Construct a simple multi-layer perceptron to solve a non-linear classification problem."
+    }
+  ],
+  "Machine Learning Engineer|Python,NumPy,Pandas,Statistics,SQL|Machine Learning,Scikit-learn,Git,Deep Learning|Tamil": [
+    {
+      "week": 1,
+      "topic": "பதி பதிப்பு மற்றும் குறியீடு மேலாண்மை",
+      "skills": [
+        "Git"
+      ],
+      "explanation": "உங்கள் குறியீட்டைப் பாதுகாப்பாக சேமிக்கவும், மற்றவர்களுடன் இணைந்து வேலை செய்யவும் பதி பதிப்பு கருவி மிகவும் அவசியமானது.",
+      "project": "ஒரு புதிய பைத்தான் திட்டத்தை உருவாக்கி அதை கிட் ஹப்-ல் பதிவேற்றவும்."
+    },
+    {
+      "week": 2,
+      "topic": "இயந்திர கற்றல் அடிப்படைகள்",
+      "skills": [
+        "Machine Learning"
+      ],
+      "explanation": "தரவுகளிலிருந்து கணினி தானாகவே கற்றுக்கொள்ளும் முறைகளைப் புரிந்து கொள்ள இது அடிப்படையாகும்.",
+      "project": "எளிய நேரியல் பின்னடைவு (Linear Regression) கோட்பாடுகளை காகிதத்தில் எழுதி புரிந்து கொள்ளுதல்."
+    },
+    {
+      "week": 3,
+      "topic": "இயந்திர கற்றல் நூலகம்",
+      "skills": [
+        "Scikit-learn"
+      ],
+      "explanation": "இயந்திர கற்றல் மாதிரிகளை எளிதாகவும் விரைவாகவும் உருவாக்க இந்த நூலகம் பெரிதும் உதவுகிறது.",
+      "project": "வீடுகளின் விலையை கணக்கிடும் இயந்திர கற்றல் மாதிரியை உருவாக்குதல்."
+    },
+    {
+      "week": 4,
+      "topic": "ஆழ் கற்றல் அறிமுகம்",
+      "skills": [
+        "Deep Learning"
+      ],
+      "explanation": "மனித மூளையைப் போல சிந்தித்து சிக்கலான படங்களை அடையாளம் காண ஆழ் கற்றல் பயன்படுகிறது.",
+      "project": "கைஎழுத்து எண்களை அடையாளம் காணும் எளிய நரம்பியல் வலையமைப்பு (Neural Network) மாதிரியை உருவாக்குதல்."
+    }
+  ],
+  "Machine Learning Engineer|Python,NumPy,Pandas,Statistics,SQL|Machine Learning,Scikit-learn,Git,Deep Learning|Hindi": [
+    {
+      "week": 1,
+      "topic": "गिट संस्करण नियंत्रण",
+      "skills": [
+        "Git"
+      ],
+      "explanation": "यह कोड को ट्रैक करने और दूसरों के साथ मिलकर काम करने के लिए सबसे जरूरी टूल है।",
+      "project": "एक स्थानीय प्रोजेक्ट बनाएं, उसमें बदलाव ट्रैक करें और गिट का उपयोग करके कमिट करें।"
+    },
+    {
+      "week": 2,
+      "topic": "मशीन लर्निंग की मूल बातें",
+      "skills": [
+        "Machine Learning"
+      ],
+      "explanation": "यह डेटा से पैटर्न सीखने और भविष्यवाणियां करने वाले एल्गोरिदम को समझने की नींव है।",
+      "project": "लीनियर रिग्रेशन की बुनियादी अवधारणाओं को समझकर डेटा के आधार पर भविष्यवाणी का मॉडल बनाएं।"
+    },
+    {
+      "week": 3,
+      "topic": "साइकिट-लर्न लाइब्रेरी",
+      "skills": [
+        "Scikit-learn"
+      ],
+      "explanation": "यह पायथन में मशीन लर्निंग मॉडल को आसानी से लागू करने और प्रशिक्षित करने की मुख्य लाइब्रेरी है।",
+      "project": "साइकिट-लर्न का उपयोग करके एक साधारण क्लासिफिकेशन मॉडल बनाएं जो डेटा का वर्गीकरण करे।"
+    },
+    {
+      "week": 4,
+      "topic": "डीप लर्निंग का परिचय",
+      "skills": [
+        "Deep Learning"
+      ],
+      "explanation": "यह जटिल समस्याओं जैसे इमेज और टेक्स्ट को समझने के लिए न्यूरल नेटवर्क का उपयोग करता है।",
+      "project": "एक बुनियादी न्यूरल नेटवर्क बनाएं जो हस्तलिखित अंकों को पहचान सके।"
+    }
+  ],
+  "Frontend Developer|HTML,CSS,JavaScript,Git,Bootstrap|React,Responsive Design,TypeScript|Hindi": [
+    {
+      "week": 1,
+      "topic": "Responsive Design सीखें",
+      "skills": [
+        "Responsive Design"
+      ],
+      "explanation": "यह सुनिश्चित करता है कि आपकी वेबसाइट मोबाइल, टैबलेट और डेस्कटॉप सभी स्क्रीन साइज पर अच्छी तरह से दिखाई दे।",
+      "project": "एक मोबाइल-फ्रेंडली पर्सनल पोर्टफोलियो वेबपेज बनाएं।"
+    },
+    {
+      "week": 2,
+      "topic": "React की बुनियादी बातें",
+      "skills": [
+        "React"
+      ],
+      "explanation": "यह एक लोकप्रिय लाइब्रेरी है जो आपको पुनः उपयोग योग्य यूआई कंपोनेंट्स बनाने में मदद करती है।",
+      "project": "एक सिंपल काउंटर या टू-डू लिस्ट ऐप बनाएं।"
+    },
+    {
+      "week": 3,
+      "topic": "TypeScript के साथ टाइप सेफ्टी",
+      "skills": [
+        "TypeScript"
+      ],
+      "explanation": "यह जावास्क्रिप्ट में स्टैटिक टाइप्स जोड़ता है जिससे कोड अधिक सुरक्षित और मेंटेन करने योग्य बनता है।",
+      "project": "अपनी पिछली टू-डू लिस्ट ऐप को टाइपस्क्रिप्ट में बदलें।"
+    },
+    {
+      "week": 4,
+      "topic": "React और TypeScript का संयोजन",
+      "skills": [
+        "React",
+        "TypeScript"
+      ],
+      "explanation": "इन दोनों को एक साथ उपयोग करने से बड़े पैमाने पर मजबूत और बग-फ्री वेब एप्लीकेशन बनाना आसान हो जाता है।",
+      "project": "एक वेदर ऐप बनाएं जो एपीआई से डेटा फेच करे।"
+    }
+  ],
+  "Backend Developer|Node.js,Express,MongoDB,Git|SQL,REST API,Authentication,Docker|Hindi": [
+    {
+      "week": 1,
+      "topic": "रिलेशनल डेटाबेस और एसक्यूएल की मूल बातें",
+      "skills": [
+        "SQL"
+      ],
+      "explanation": "NoSQL डेटाबेस के अलावा रिलेशनल डेटाबेस को समझना और डेटा को टेबल्स में व्यवस्थित करना डेटा मैनेजमेंट के लिए बहुत जरूरी है।",
+      "project": "एक ई-कॉमर्स स्टोर के लिए प्रोडक्ट्स और यूज़र्स की टेबल्स बनाएं और बेसिक क्वेरी चलाएं।"
+    },
+    {
+      "week": 2,
+      "topic": "RESTful आर्किटेक्चर और एपीआई डिजाइन",
+      "skills": [
+        "REST API"
+      ],
+      "explanation": "क्लाइंट और सर्वर के बीच संचार स्थापित करने के लिए स्टैंडर्ड तरीके और सही एचटीटीपी मेथड्स का उपयोग करना सीखना आवश्यक है।",
+      "project": "एक टू-डू लिस्ट के लिए CRUD ऑपरेशंस वाले एपीआई एंडपॉइंट्स डिजाइन करें।"
+    },
+    {
+      "week": 3,
+      "topic": "यूज़र ऑथेंटिकेशन और सिक्योरिटी",
+      "skills": [
+        "Authentication"
+      ],
+      "explanation": "एप्लीकेशन में यूज़र्स की पहचान सुरक्षित करना और पासवर्ड तथा सेशंस को प्रोटेक्ट करना सुरक्षा की दृष्टि से सबसे महत्वपूर्ण है।",
+      "project": "अपने पिछले प्रोजेक्ट में साइन-अप और लॉग-इन फीचर्स के साथ टोकन-आधारित ऑथेंटिकेशन जोड़ें।"
+    },
+    {
+      "week": 4,
+      "topic": "कंटेनराइजेशन और डॉकर की मूल बातें",
+      "skills": [
+        "Docker"
+      ],
+      "explanation": "अपने एप्लीकेशन और उसके एनवायरनमेंट को एक कंटेनर में पैक करना ताकि वह किसी भी कंप्यूटर पर एक जैसी चले।",
+      "project": "अपने एक्सप्रेस और मोंगोज़ ऐप के लिए एक डॉकरफाइल बनाएं और कंटेनर को सफलतापूर्वक चलाएं।"
+    }
+  ],
+  "Full Stack Developer||HTML,CSS,JavaScript,React,Node.js,Express,MongoDB,REST API,Git,TypeScript|Hindi|v2": [
+    {
+      "week": 1,
+      "topic": "वेब डेवलपमेंट की शुरुआत (HTML और CSS)",
+      "skills": [
+        "HTML",
+        "CSS"
+      ],
+      "explanation": "एचटीएमएल और सीएसएस किसी भी वेबसाइट की बुनियादी संरचना और डिज़ाइन बनाने के लिए आवश्यक हैं। इनके बिना वेब पेज बनाना असंभव है।",
+      "project": "अपने बारे में जानकारी देने वाला एक सुंदर पोर्टफोलियो वेब पेज बनाएं।"
+    },
+    {
+      "week": 2,
+      "topic": "जावास्क्रिप्ट और डायनामिक वेब",
+      "skills": [
+        "JavaScript"
+      ],
+      "explanation": "जावास्क्रिप्ट वेबसाइटों में कार्यक्षमता जोड़ता है। यह यूजर इंटरेक्शन, लॉजिक और डायनामिक कंटेंट को हैंडल करने में मदद करता है।",
+      "project": "एक इंटरैक्टिव कैलकुलेटर या एक सिंपल टू-डू लिस्ट एप्लीकेशन बनाएं।"
+    },
+    {
+      "week": 3,
+      "topic": "गिट के साथ वर्जन कंट्रोल",
+      "skills": [
+        "Git"
+      ],
+      "explanation": "गिट कोड के इतिहास को ट्रैक करने और दूसरों के साथ मिलकर काम करने के लिए एक अनिवार्य टूल है।",
+      "project": "अपने पिछले प्रोजेक्ट्स को गिट रिपॉजिटरी में सेव करें और बदलावों को ट्रैक करें।"
+    },
+    {
+      "week": 4,
+      "topic": "रिएक्ट के साथ आधुनिक यूआई डेवलपमेंट",
+      "skills": [
+        "React"
+      ],
+      "explanation": "रिएक्ट एक लोकप्रिय लाइब्रेरी है जो रियूजेबल कंपोनेंट्स के माध्यम से जटिल यूजर इंटरफेस को आसानी से बनाने में मदद करती है।",
+      "project": "एक मौसम पूर्वानुमान (वेदर) ऐप बनाएं जो यूजर की पसंद के शहर का मौसम दिखाए।"
+    },
+    {
+      "week": 5,
+      "topic": "टाइपस्क्रिप्ट के साथ सुरक्षित कोडिंग",
+      "skills": [
+        "TypeScript"
+      ],
+      "explanation": "टाइपस्क्रिप्ट जावास्क्रिप्ट में स्टेटिक टाइपिंग जोड़ता है, जिससे कोड लिखते समय ही गलतियों का पता चल जाता है और कोड मजबूत बनता है।",
+      "project": "अपने रिएक्ट टू-डू लिस्ट ऐप को टाइपस्क्रिप्ट का उपयोग करके फिर से लिखें।"
+    },
+    {
+      "week": 6,
+      "topic": "बैकएंड डेवलपमेंट (नोड और एक्सप्रेस)",
+      "skills": [
+        "Node.js",
+        "Express"
+      ],
+      "explanation": "नोड और एक्सप्रेस का उपयोग करके आप सर्वर-साइड कोड लिख सकते हैं और अपने एप्लीकेशन के लिए सर्वर बना सकते हैं।",
+      "project": "एक बेसिक वेब सर्वर बनाएं जो अलग-अलग यूआरएल पर कस्टम संदेश भेजे।"
+    },
+    {
+      "week": 7,
+      "topic": "मोंगोडीबी के साथ डेटाबेस मैनेजमेंट",
+      "skills": [
+        "MongoDB"
+      ],
+      "explanation": "मोंगोडीबी एक नोएसक्यूएल डेटाबेस है जिसका उपयोग एप्लीकेशन के डेटा को हमेशा के लिए सुरक्षित रूप से स्टोर करने के लिए किया जाता है।",
+      "project": "एक डेटाबेस बनाएं और उसमें यूजर की प्रोफाइल जानकारी को स्टोर करने का अभ्यास करें।"
+    },
+    {
+      "week": 8,
+      "topic": "रेस्ट एपीआई का निर्माण",
+      "skills": [
+        "REST API"
+      ],
+      "explanation": "रेस्ट एपीआई फ्रंटएंड और बैकएंड के बीच डेटा के लेन-देन का मुख्य जरिया है, जिससे पूरा वेब एप्लीकेशन एक साथ काम करता है।",
+      "project": "एक संपूर्ण संपर्क सूची (कांटेक्ट लिस्ट) एपीआई बनाएं जिसमें डेटा को जोड़ने, देखने और हटाने की सुविधा हो।"
+    }
+  ],
+  "Full Stack Developer|HTML,CSS,JavaScript,React,Node.js,Git|Express,MongoDB,REST API,TypeScript|Hindi|v2": [
+    {
+      "week": 1,
+      "topic": "एक्सप्रेस बेसिक्स",
+      "skills": [
+        "Express"
+      ],
+      "explanation": "यह आपको नोड.जेएस पर आधारित बैकएंड सर्वर और राउटिंग को आसानी से प्रबंधित करने में मदद करता है।",
+      "project": "एक बुनियादी सर्वर बनाना जो विभिन्न राउट्स पर अलग-अलग संदेश लौटाए।"
+    },
+    {
+      "week": 2,
+      "topic": "रेस्ट एपीआई डिज़ाइन",
+      "skills": [
+        "REST API"
+      ],
+      "explanation": "यह前端 और बैकएंड के बीच डेटा संचार को मानक और सुरक्षित बनाता है।",
+      "project": "एक साधारण टू-डू सूची के लिए एपीआई एंडपॉइंट्स तैयार करना।"
+    },
+    {
+      "week": 3,
+      "topic": "मोंगोज़ और डेटाबेस",
+      "skills": [
+        "MongoDB"
+      ],
+      "explanation": "यह आपके एप्लिकेशन में डेटा को स्थाई रूप से संग्रहित और प्रबंधित करने के लिए आवश्यक है।",
+      "project": "उपयोगकर्ता डेटा को सहेजने और खोजने के लिए डेटाबेस कनेक्शन स्थापित करना।"
+    },
+    {
+      "week": 4,
+      "topic": "टाइपस्क्रिप्ट और सुरक्षित कोड",
+      "skills": [
+        "TypeScript"
+      ],
+      "explanation": "यह आपके कोड में टाइप सुरक्षा जोड़ता है जिससे बड़ी परियोजनाओं में त्रुटियाँ कम होती हैं।",
+      "project": "पिछले किसी प्रोजेक्ट को टाइपस्क्रिप्ट में बदलना और डेटा प्रकार परिभाषित करना।"
+    }
+  ],
+  "Data Analyst|Python,SQL,Excel,Statistics|Power BI,Tableau|Tamil|v2": [
+    {
+      "week": 1,
+      "topic": "பவர் பிஐ அறிமுகம் மற்றும் தரவு தயாரிப்பு",
+      "skills": [
+        "Power BI"
+      ],
+      "explanation": "தரவுகளை இணைக்கவும், சுத்தம் செய்யவும் மற்றும் பவர் பிஐ அடிப்படையிலான காட்சிப்படுத்தல்களை உருவாக்கவும் இது உதவுகிறது.",
+      "project": "ஒரு எளிய விற்பனை தரவுத்தொகுப்பை பயன்படுத்தி டேஷ்போர்டு தயாரித்தல்"
+    },
+    {
+      "week": 2,
+      "topic": "பவர் பிஐ இல் மேம்பட்ட நடவடிக்கைகள் மற்றும் டாஷ்போர்டுகள்",
+      "skills": [
+        "Power BI"
+      ],
+      "explanation": "டேக்ஸ் (DAX) சூத்திரங்களைப் பயன்படுத்தி மேம்பட்ட கணக்கீடுகளைச் செய்து ஊடாடும் டாஷ்போர்டுகளை உருவாக்க இது அவசியம்.",
+      "project": "மாதாந்திர லாபம் மற்றும் நஷ்டத்தை காட்டும் முழுமையான பவர் பிஐ டாஷ்போர்டு"
+    },
+    {
+      "week": 3,
+      "topic": "டாப்லோ அடிப்படைகள் மற்றும் தரவு இணைப்புகள்",
+      "skills": [
+        "Tableau"
+      ],
+      "explanation": "சிக்கலான தரவுகளை எளிதில் புரிந்துகொள்ளும் வகையில் காட்சிப்படுத்த டாப்லோ மிகவும் பயனுள்ள கருவியாகும்.",
+      "project": "பல்வேறு வரைபடங்களைப் பயன்படுத்தி வாடிக்கையாளர் பகுப்பாய்வு அறிக்கை"
+    },
+    {
+      "week": 4,
+      "topic": "டாப்லோ மேம்பட்ட டாஷ்போர்டுகள் மற்றும் கதைகள்",
+      "skills": [
+        "Tableau"
+      ],
+      "explanation": "தொழில்முறை விளக்கக்காட்சிகளுக்காக ஊடாடும் டாஷ்போர்டுகள் மற்றும் தரவுக் கதைகளை உருவாக்க இது உதவுகிறது.",
+      "project": "ஒரு நிறுவனத்தின் ஒட்டுமொத்த செயல்திறனை விளக்கும் டாப்லோ ஸ்டோரி பாயிண்ட்"
+    }
+  ],
+  "Data Analyst|Python,SQL,Excel,Statistics|Power BI,Tableau|Hindi|v2": [
+    {
+      "week": 1,
+      "topic": "पावर बीआई का परिचय और डेटा विज़ुअलाइज़ेशन",
+      "skills": [
+        "Power BI"
+      ],
+      "explanation": "यह टूल बिज़नेस डेटा को विज़ुअल डैशबोर्ड में बदलने और डेटा मॉडलिंग के लिए बहुत महत्वपूर्ण है।",
+      "project": "एक सरल बिक्री डेटासेट का उपयोग करके बुनियादी डैशबोर्ड बनाना।"
+    },
+    {
+      "week": 2,
+      "topic": "एडवांस्ड पावर बीआई और डीएक्सएक्स",
+      "skills": [
+        "Power BI"
+      ],
+      "explanation": "डैक्स (DAX) फ़ॉर्मूला सीखने से आप जटिल डेटा गणना और मेट्रिक्स बना सकते हैं।",
+      "project": "डैक्स फ़ॉर्मूला का उपयोग करके लाभ और हानि का विश्लेषण करने वाली रिपोर्ट तैयार करना।"
+    },
+    {
+      "week": 3,
+      "topic": "टेबलौ का परिचय और विज़ुअल मैपिंग",
+      "skills": [
+        "Tableau"
+      ],
+      "explanation": "यह एक लोकप्रिय डेटा विज़ुअलाइज़ेशन टूल है जो आकर्षक और इंटरैक्टिव चार्ट बनाने में मदद करता है।",
+      "project": "विभिन्न प्रकार के चार्ट का उपयोग करके एक एम्प्लॉयी परफॉर्मेंस डैशबोर्ड बनाना।"
+    },
+    {
+      "week": 4,
+      "topic": "एडवांस्ड टेबलौ और डैशबोर्ड निर्माण",
+      "skills": [
+        "Tableau"
+      ],
+      "explanation": "कैलकुलेटेड फील्ड्स और पैरामीटर्स का उपयोग करके आप डैशबोर्ड को अधिक गतिशील बना सकते हैं।",
+      "project": "एक संपूर्ण व्यावसायिक केस स्टडी पर आधारित इंटरैक्टिव डैशबोर्ड तैयार करना।"
+    }
+  ],
+  "Frontend Developer|HTML,CSS,JavaScript,Git,Bootstrap|React,Responsive Design,TypeScript|Tamil|v2": [
+    {
+      "week": 1,
+      "topic": "ரெஸ்பான்சிவ் டிசைன்",
+      "skills": [
+        "Responsive Design"
+      ],
+      "explanation": "வெவ்வேறு திரை அளவுகளில் இணையதளம் சரியாக வேலை செய்ய இது மிகவும் அவசியமானது.",
+      "project": "மொபைல் மற்றும் டெஸ்க்டாப் திரைகளுக்கு ஏற்ப மாறக்கூடிய ஒரு வலைப்பக்கத்தை உருவாக்குதல்."
+    },
+    {
+      "week": 2,
+      "topic": "ரியாக்ட் அறிமுகம்",
+      "skills": [
+        "React"
+      ],
+      "explanation": "நவீன இணைய பயன்பாடுகளை உருவாக்க மிகவும் பிரபலமான மற்றும் அவசியமான நூலகம் இதுவாகும்.",
+      "project": "ஒரு எளிய டோ-லிஸ்ட் பயன்பாட்டை ரியாக்ட் பயன்படுத்தி உருவாக்குதல்."
+    },
+    {
+      "week": 3,
+      "topic": "டைப்ஸ்கிரிப்ட் அடிப்படைகள்",
+      "skills": [
+        "TypeScript"
+      ],
+      "explanation": "ஜாவாஸ்கிரிப்ட்டில் பிழைகளைக் குறைக்க வகை பாதுகாப்பு (type safety) வழங்குகிறது.",
+      "project": "ஒரு எளிய கால்குலேட்டர் செயலியை டைப்ஸ்கிரிப்ட் மூலம் உருவாக்குதல்."
+    },
+    {
+      "week": 4,
+      "topic": "ரியாக்ட் மற்றும் டைப்ஸ்கிரிப்ட் ஒருங்கிணைப்பு",
+      "skills": [
+        "React",
+        "TypeScript"
+      ],
+      "explanation": "நவீன நிறுவனங்கள் இந்த இரண்டையும் இணைத்து பெரிய அளவிலான பயன்பாடுகளை உருவாக்குகின்றன.",
+      "project": "டைப்ஸ்கிரிப்ட் மற்றும் ரியாக்ட் பயன்படுத்தி ஒரு வானிலை முன்னறிவிப்பு செயலியை உருவாக்குதல்."
+    }
+  ],
+  "Frontend Developer|HTML,CSS,JavaScript,Git,Bootstrap|React,Responsive Design,TypeScript|Hindi|v2": [
+    {
+      "week": 1,
+      "topic": "उत्तरदायी डिजाइन",
+      "skills": [
+        "Responsive Design"
+      ],
+      "explanation": "विभिन्न स्क्रीन आकारों और उपकरणों पर वेबसाइट को सही ढंग से प्रदर्शित करने के लिए यह बहुत महत्वपूर्ण है।",
+      "project": "एक मीडिया क्वेरी का उपयोग करके मोबाइल-फ्रेंडली लैंडिंग पेज बनाएं।"
+    },
+    {
+      "week": 2,
+      "topic": "रिएक्ट मूल बातें",
+      "skills": [
+        "React"
+      ],
+      "explanation": "यह आधुनिक यूजर इंटरफेस और घटक-आधारित वेब एप्लिकेशन बनाने के लिए सबसे लोकप्रिय लाइब्रेरी है।",
+      "project": "एक साधारण टू-डू लिस्ट एप्लिकेशन बनाएं।"
+    },
+    {
+      "week": 3,
+      "topic": "टाइपस्क्रिप्ट परिचय",
+      "skills": [
+        "TypeScript"
+      ],
+      "explanation": "यह जावास्क्रिप्ट में स्टेटिक टाइपिंग जोड़ता है जिससे कोड अधिक सुरक्षित और त्रुटि-मुक्त बनता है।",
+      "project": "टाइप्स का उपयोग करके एक कैलकुलेटर बनाएं।"
+    },
+    {
+      "week": 4,
+      "topic": "रिएक्ट के साथ टाइपस्क्रिप्ट",
+      "skills": [
+        "React",
+        "TypeScript"
+      ],
+      "explanation": "इन दोनों को एक साथ उपयोग करने से बड़े पैमाने पर स्केलेबल और सुरक्षित वेब ऐप्स का विकास किया जाता है।",
+      "project": "एक मौसम विजेट ऐप बनाएं जो एपीआई से डेटा फेच करे।"
+    }
+  ],
+  "Backend Developer|Node.js,Express,MongoDB,Git|SQL,REST API,Authentication,Docker|Tamil|v2": [
+    {
+      "week": 1,
+      "topic": "ரெஸ்ட் ஏபிஐ அடிப்படைகள்",
+      "skills": [
+        "REST API"
+      ],
+      "explanation": "கிளையன்ட் மற்றும் சர்வர் இடையே தரவுகளை பரிமாறிக்கொள்ள நிலையான வழிகளை உருவாக்குவது அவசியமானது.",
+      "project": "எக்ஸ்பிரஸ் பயன்படுத்தி எளிய தொடர்பு பட்டியலுக்கான ரெஸ்ட் ஏபிஐ உருவாக்குதல்."
+    },
+    {
+      "week": 2,
+      "topic": "SQL மற்றும் தரவுத்தள வடிவமைப்பு",
+      "skills": [
+        "SQL"
+      ],
+      "explanation": "தொடர்பuடைய தரவுகளை அட்டவணைகளில் சேமிக்கவும், திறம்பட தேடவும் SQL அறிவு மிகவும் முக்கியமானது.",
+      "project": "ஒரு வலைப்பதிவுக்கான பயனர்கள் மற்றும் பதிவுகளின் அட்டவணைகளை SQL மூலம் உருவாக்குதல்."
+    },
+    {
+      "week": 3,
+      "topic": "பயனர் அங்கீகாரம் மற்றும் பாதுகாப்பு",
+      "skills": [
+        "Authentication"
+      ],
+      "explanation": "பயனர்களின் தரவுகளைப் பாதுகாக்க பாதுகாப்பான உள்நுழைவு மற்றும் பதிவு செய்யும் முறைகளை அமைப்பது அவசியம்.",
+      "project": "முந்தைய ஏபிஐ திட்டத்தில் டோக்கன் அடிப்படையிலான பயனர் அங்கீகாரத்தை சேர்த்தல்."
+    },
+    {
+      "week": 4,
+      "topic": "டோக்கர் மற்றும் கன்டெய்னரைசேஷன்",
+      "skills": [
+        "Docker"
+      ],
+      "explanation": "பல்வேறு சூழல்களில் பயன்பாடுகள் சீராக இயங்குவதை உறுதிசெய்ய டோக்கர் உதவுகிறது.",
+      "project": "உங்கள் முழு பேக்எண்ட் பயன்பாட்டையும் டோக்கர் பயன்படுத்தி கன்டெய்னராக மாற்றுதல்."
+    }
+  ],
+  "Backend Developer|Node.js,Express,MongoDB,Git|SQL,REST API,Authentication,Docker|Hindi|v2": [
+    {
+      "week": 1,
+      "topic": "रिलेशनल डेटाबेस और क्वेरी",
+      "skills": [
+        "SQL"
+      ],
+      "explanation": "नोएसक्यूएल के बाद रिलेशनल डेटाबेस को समझना और डेटा को टेबल्स में मैनेज करना बैकएंड डेवलपर के लिए बहुत जरूरी है।",
+      "project": "एक ई-कॉमर्स डेटाबेस बनाएं जिसमें प्रोडक्ट्स और यूज़र्स के लिए टेबल्स हों।"
+    },
+    {
+      "week": 2,
+      "topic": "एपिआई डिज़ाइन के नियम",
+      "skills": [
+        "REST API"
+      ],
+      "explanation": "क्लाइंट और सर्वर के बीच संचार को मानक और व्यवस्थित तरीके से डिजाइन करने के लिए यह सीखना आवश्यक है।",
+      "project": "प्रोडक्ट्स को जोड़ने और खोजने के लिए एक मानक एपीआई तैयार करें।"
+    },
+    {
+      "week": 3,
+      "topic": "यूज़र सुरक्षा और पहचान",
+      "skills": [
+        "Authentication"
+      ],
+      "explanation": "एप्लिकेशन में यूज़र्स की पहचान सुरक्षित करने और डेटा को अनधिकृत पहुंच से बचाने के लिए यह बहुत महत्वपूर्ण है।",
+      "project": "लॉगिन और रजिस्ट्रेशन के लिए टोकन-आधारित सुरक्षा प्रणाली बनाएं।"
+    },
+    {
+      "week": 4,
+      "topic": "कंटेनराइज़ेशन और डिप्लॉयमेंट",
+      "skills": [
+        "Docker"
+      ],
+      "explanation": "अपने एप्लिकेशन को किसी भी एनवायरनमेंट में एक जैसी स्थिति में चलाने और आसानी से डिप्लॉय करने में यह मदद करता है।",
+      "project": "अपने एक्सप्रेस और डेटाबेस ऐप को कंटेनर में पैक करके चलाएं।"
+    }
+  ],
+  "Full Stack Developer|HTML,CSS,JavaScript,React,Node.js,Git|Express,MongoDB,REST API,TypeScript|Tamil|v2": [
+    {
+      "week": 1,
+      "topic": "எக்ஸ்பிரஸ் அடிப்படைகள்",
+      "skills": [
+        "Express"
+      ],
+      "explanation": "நோட்.ஜே.எஸ் சூழலில் விரைவாக சேவையகங்களை உருவாக்க எக்ஸ்பிரஸ் உதவுகிறது.",
+      "project": "ஒரு எளிய நோட் மற்றும் எக்ஸ்பிரஸ் சேவையகம் உருவாக்கி ரூட்டிங் அமைத்தல்."
+    },
+    {
+      "week": 2,
+      "topic": "ரெஸ்ட் ஏபிஐ வடிவமைப்பு",
+      "skills": [
+        "REST API"
+      ],
+      "explanation": "முன்பகுதியையும் பின்பகுதியையும் இணைக்க தரவு பரிமாற்ற முறைகளை இது கற்பிக்கிறது.",
+      "project": "CRUD செயல்பாடுகளுடன் கூடிய ஒரு எளிய ஏபிஐ உருவாக்குதல்."
+    },
+    {
+      "week": 3,
+      "topic": "மொண்டோடிபி தரவுத்தளம்",
+      "skills": [
+        "MongoDB"
+      ],
+      "explanation": "நவீன இணைய பயன்பாடுகளுக்கு தரவுகளை நிலைநிறுத்த நோ-எஸ்.கியூ.எல் தரவுத்தளம் தேவைப்படுகிறது.",
+      "project": "மொண்டோடிபி-ஐ எக்ஸ்பிரஸ் உடன் இணைத்து தரவுகளை சேமித்தல்."
+    },
+    {
+      "week": 4,
+      "topic": "டைப்ஸ்கிரிப்ட் அறிமுகம்",
+      "skills": [
+        "TypeScript"
+      ],
+      "explanation": "ஜாவாவிக்கிழுக்கு மாற்றாக வலுவான தரவு வகைகளை வழங்கி பிழைகளைக் குறைக்க உதவுகிறது.",
+      "project": "ஏற்கனவே செய்த எக்ஸ்பிரஸ் செயலியை டைப்ஸ்கிரிப்ட்டுக்கு மாற்றுதல்."
+    }
+  ],
+  "Python Developer|Python,OOP,SQL,Git|Flask,REST API,Testing,Docker|Tamil|v2": [
+    {
+      "week": 1,
+      "topic": "ரெஸ்ட் ஏபிஐ அடிப்படைகள்",
+      "skills": [
+        "REST API"
+      ],
+      "explanation": "வெவ்வேறு மென்பொருட்கள் ஒருმோடு ஒன்று பேச ரெஸ்ட் ஏபிஐ மிகவும் அவசியமான வழியாகும்.",
+      "project": "வெப்பநிலை தரவை வழங்கும் எளிய ஏபிஐ வடிவமைத்தல்"
+    },
+    {
+      "week": 2,
+      "topic": "ஃப்ளாஸ்க் கட்டமைப்பு",
+      "skills": [
+        "Flask"
+      ],
+      "explanation": "பைதான் மூலம் விரைவாக வலைத்தளங்களையும் ஏபிஐ-க்களையும் உருவாக்க ஃப்ளாஸ்க் உதவுகிறது.",
+      "project": "பயனர் விவரங்களை சேமிக்கும் எளிய வலைப் பயன்பாடு உருவாக்குதல்"
+    },
+    {
+      "week": 3,
+      "topic": "மென்பொருள் சோதனை",
+      "skills": [
+        "Testing"
+      ],
+      "explanation": "நாம் எழுதிய குறியீடு சரியாக வேலை செய்கிறதா என்பதை உறுதி செய்ய சோதனை செய்வது முக்கியம்.",
+      "project": "ஃப்ளாஸ்க் ஏபிஐ-க்கான யூனிட் சோதனைகளை எழுதுதல்"
+    },
+    {
+      "week": 4,
+      "topic": "டோக்கர் மூலம் தொகுத்தல்",
+      "skills": [
+        "Docker"
+      ],
+      "explanation": "பயன்பாட்டை எங்கு வேண்டுமானாலும் எளிதாக இயக்க டோக்கர் உதவுகிறது.",
+      "project": "உங்கள் ஃப்ளாஸ்க் செயலியை டோக்கர் கொள்கலனில் இயக்குதல்"
+    }
+  ],
+  "Python Developer|Python,OOP,SQL,Git|Flask,REST API,Testing,Docker|Hindi|v2": [
+    {
+      "week": 1,
+      "topic": "रेस्ट एपीआई बुनियादी बातें",
+      "skills": [
+        "REST API"
+      ],
+      "explanation": "यह समझना बहुत जरूरी है कि वेब पर अलग-अलग सिस्टम डेटा का आदान-प्रदान कैसे करते हैं।",
+      "project": "एक साधारण डेटा सेट के साथ अनुरोधों को संभालने वाला एक बुनियादी इंटरफ़ेस बनाएं।"
+    },
+    {
+      "week": 2,
+      "topic": "फ़्लास्क फ्रेमवर्क",
+      "skills": [
+        "Flask"
+      ],
+      "explanation": "यह हल्का फ्रेमवर्क आपको पायथन का उपयोग करके जल्दी से वेब एप्लिकेशन और सर्वर बनाने में मदद करता है।",
+      "project": "विभिन्न राउट्स के साथ एक छोटा वेब पेज या एपीआई एंडपॉइंट बनाएं।"
+    },
+    {
+      "week": 3,
+      "topic": "सॉफ़्टवेयर परीक्षण",
+      "skills": [
+        "Testing"
+      ],
+      "explanation": "अपने कोड की गुणवत्ता सुनिश्चित करने और बग्स को जल्दी पकड़ने के लिए परीक्षण लिखना आवश्यक कौशल है।",
+      "project": "अपने फ़्लास्क एप्लिकेशन के लिए यूनिट टेस्ट लिखें।"
+    },
+    {
+      "week": 4,
+      "topic": "डॉकर कंटेनीकरण",
+      "skills": [
+        "Docker"
+      ],
+      "explanation": "यह तकनीक आपके एप्लिकेशन को सभी आवश्यक निर्भरताओं के साथ पैक करने में मदद करती है ताकि यह हर वातावरण में चल सके।",
+      "project": "अपने फ़्लास्क एप्लिकेशन को एक कंटेनर के अंदर पैक करें और चलाएं।"
+    }
+  ],
+  "Java Developer|Java,OOP,SQL,Git|Data Structures,Spring Boot,REST API,Maven|Tamil|v2": [
+    {
+      "week": 1,
+      "topic": "தரவு கட்டமைப்புகள்",
+      "skills": [
+        "Data Structures"
+      ],
+      "explanation": "நிகழ்ச்சி நிரல் மேம்பாட்டில் தர்க்கரீதியான சிக்கல்களைத் தீர்க்கவும், தரவை திறம்பட கையாளவும் இது அடிப்படையானது.",
+      "project": "ஒரு எளிய தொடர்பு பட்டியலை உருவாக்குதல்."
+    },
+    {
+      "week": 2,
+      "topic": "பில் மேலாண்மை",
+      "skills": [
+        "Maven"
+      ],
+      "explanation": "புராஜெக்ட்டின் சார்புகளை (dependencies) எளிதாக நிர்வகிக்க இந்த கருவி அவசியமானது.",
+      "project": "ஒரு புதிய ஜாவா திட்டத்தை மேவன் பயன்படுத்தி அமைத்தல்."
+    },
+    {
+      "week": 3,
+      "topic": "ஸ்பிரிங் பூட் அறிமுகம்",
+      "skills": [
+        "Spring Boot"
+      ],
+      "explanation": "நவீன ஜாவா பயன்பாடுகளை மிக விரைவாகவும் எளிதாகவும் உருவாக்க இந்த கட்டமைப்பு பயன்படுகிறது.",
+      "project": "ஒரு அடிப்படை ஸ்பிரிங் பூட் பயன்பாட்டைத் தொடங்குதல்."
+    },
+    {
+      "week": 4,
+      "topic": "ரெஸ்ட் ஏபிஐ",
+      "skills": [
+        "REST API"
+      ],
+      "explanation": "வெவ்வேறு மென்பொருட்கள் மற்றும் சேவைகளுக்கு இடையே தரவைப் பரிமாறிக் கொள்ள இது உதவுகிறது.",
+      "project": "ஒரு சிறிய குறிப்பு மேலாண்மை ரெஸ்ட் ஏபிஐ உருவாக்குதல்."
+    }
+  ],
+  "Java Developer|Java,OOP,SQL,Git|Data Structures,Spring Boot,REST API,Maven|Hindi|v2": [
+    {
+      "week": 1,
+      "topic": "डेटा संरचनाएं",
+      "skills": [
+        "Data Structures"
+      ],
+      "explanation": "दक्ष और ऑप्टिमाइज्ड कोड लिखने के लिए बुनियादी डेटा संरचनाओं और एल्गोरिदम को समझना बहुत महत्वपूर्ण है।",
+      "project": "एक कंसोल-आधारित टू-डू लिस्ट एप्लिकेशन बनाएं जिसमें डेटा को एरे और लिस्ट में स्टोर किया जाए।"
+    },
+    {
+      "week": 2,
+      "topic": "मेवेन",
+      "skills": [
+        "Maven"
+      ],
+      "explanation": "जावा प्रोजेक्ट्स में डिपेंडेंसी मैनेजमेंट और बिल्ड प्रोसेस को आसान बनाने के लिए मेवेन का उपयोग किया जाता है।",
+      "project": "एक बेसिक जावा प्रोजेक्ट बनाएं और उसे मेवेन के माध्यम से कॉन्फ़िगर और बिल्ड करें।"
+    },
+    {
+      "week": 3,
+      "topic": "रेस्ट एपीआई",
+      "skills": [
+        "REST API"
+      ],
+      "explanation": "वेब एप्लीकेशन और माइक्रो सर्विसेज के बीच डेटा कम्युनिकेशन के लिए रेस्टफुल सेवाओं का ज्ञान आवश्यक है।",
+      "project": "एक सरल एपीआई डिज़ाइन करें जो क्लाइंट अनुरोधों पर JSON डेटा लौटाए।"
+    },
+    {
+      "week": 4,
+      "topic": "स्प्रिंग बूट",
+      "skills": [
+        "Spring Boot"
+      ],
+      "explanation": "स्प्रिंग बूट आधुनिक जावा वेब एप्लीकेशन और एंटरप्राइज सॉफ्टवेयर विकास का उद्योग मानक है।",
+      "project": "एक पूर्ण स्प्रिंग बूट एप्लीकेशन बनाएं जो डेटाबेस से जुड़कर CRUD ऑपरेशन कर सके।"
+    }
+  ],
+  "Machine Learning Engineer|Python,NumPy,Pandas,Statistics,SQL|Machine Learning,Scikit-learn,Git,Deep Learning|Tamil|v2": [
+    {
+      "week": 1,
+      "topic": "பதி பதிப்பு கட்டுப்பாடு",
+      "skills": [
+        "Git"
+      ],
+      "explanation": "உங்கள் குறியீட்டு மாற்றங்களை நிர்வகிக்கவும், மற்றவர்களுடன் இணைந்து பணியாற்றவும் இது உதவுகிறது.",
+      "project": "ஒரு புதிய களகத்தை உருவாக்கி, உங்கள் பைதான் குறியீட்டைப் பதிவேற்றவும்."
+    },
+    {
+      "week": 2,
+      "topic": "இயந்திர கற்றல் அறிமுகம்",
+      "skills": [
+        "Machine Learning"
+      ],
+      "explanation": "தரவுகளிலிருந்து கணினிகள் தாமாகவே கற்றுக்கொள்ள உதவும் அடிப்படைக் கோட்பாடுகளை இது கற்றுக்கொடுக்கிறது.",
+      "project": "எளிய தரவுத்தொகுப்பைக் கொண்டு ஒரு கணிப்பு மாதிரியை உருவாக்கவும்."
+    },
+    {
+      "week": 3,
+      "topic": "சிகிட்-லெர்ன் கருவி",
+      "skills": [
+        "Scikit-learn"
+      ],
+      "explanation": "இயந்திர கற்றல் வழிமுறைகளை எளிதாகவும் விரைவாகவும் நடைமுறைப்படுத்த இந்த நூலகம் பயன்படுகிறது.",
+      "project": "வீடுகளின் விலையைக் கணிக்க எளிய இயந்திர கற்றல் மாதிரியை உருவாக்கவும்."
+    },
+    {
+      "week": 4,
+      "topic": "ஆழ் கற்றல் அடிப்படைகள்",
+      "skills": [
+        "Deep Learning"
+      ],
+      "explanation": "மூளை போன்ற நரம்பியல் வலைப்பின்னல்களைப் பயன்படுத்தி சிக்கலான வடிவங்களைக் கண்டறிய உதவுகிறது.",
+      "project": "எண்களை அடையாளம் காண எளிய நரம்பியல் வலைப்பின்னலை உருவாக்கவும்."
+    }
+  ],
+  "Machine Learning Engineer|Python,NumPy,Pandas,Statistics,SQL|Machine Learning,Scikit-learn,Git,Deep Learning|Hindi|v2": [
+    {
+      "week": 1,
+      "topic": "वर्शन कंट्रोल",
+      "skills": [
+        "Git"
+      ],
+      "explanation": "यह कोड को ट्रैक करने और टीम के साथ मिलकर काम करने के लिए सबसे महत्वपूर्ण टूल है।",
+      "project": "अपने कोड रिपॉजिटरी को गिट पर बनाएं और पहला कमिट करें।"
+    },
+    {
+      "week": 2,
+      "topic": "मशीन लर्निंग की शुरुआत",
+      "skills": [
+        "Machine Learning"
+      ],
+      "explanation": "यह डेटा से पैटर्न सीखने और भविष्य की भविष्यवाणियां करने की बुनियादी अवधारणाएं प्रदान करता है।",
+      "project": "डेटा को समझकर एक सरल लीनियर रिग्रेशन अवधारणा को कागज़ पर समझें।"
+    },
+    {
+      "week": 3,
+      "topic": "साइकिट-लर्न का उपयोग",
+      "skills": [
+        "Scikit-learn"
+      ],
+      "explanation": "यह पाइथन में मशीन लर्निंग मॉडल को आसानी से कोड करने और लागू करने के लिए मुख्य लाइब्रेरी है।",
+      "project": "साइकिट-लर्न का उपयोग करके एक साधारण हाउस प्राइज प्रेडिक्शन मॉडल बनाएं।"
+    },
+    {
+      "week": 4,
+      "topic": "डीप लर्निंग",
+      "skills": [
+        "Deep Learning"
+      ],
+      "explanation": "यह जटिल समस्याओं जैसे इमेज और टेक्स्ट को हल करने के लिए न्यूरल नेटवर्क का उपयोग करना सिखाता है।",
+      "project": "एक छोटा न्यूरल नेटवर्क बनाकर हस्तलिखित अंकों को पहचानें।"
+    }
+  ]
+}
